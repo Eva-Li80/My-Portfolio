@@ -1,0 +1,138 @@
+
+/*kalkylator*/
+#kalkylator {
+    background-color: rgb(81, 183, 183);
+  
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+   
+}
+
+.rubrik {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#value1 {
+    padding: 10px;
+    width: 50px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#value2 {
+    padding: 10px;
+    width: 50px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#operator {
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+#buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 25px;
+ 
+}
+
+#buttoncontainer button {
+    margin-right: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color:#fdad6b;
+    padding: 5px
+  
+}
+
+/*max min*/
+
+  /* ... (din befintliga CSS) */
+
+/*max min*/
+
+#button {
+    background-color: rgb(125, 222, 249);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .numberinput {
+    padding-left: 5px;
+  }
+  
+  .max {
+    max-width: 600px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #fdad6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px;
+    border-radius: 5px;
+
+  }
+  
+  .min {
+    max-width: 600px;
+    padding: 50px;
+    background-color: #fdad6b;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 3px;
+    border-radius: 5px;
+  }
+  
+  .kalk {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .kalk {
+      /* Här ändrar vi display för "max" och "min" på mindre skärmar */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .max,
+    .min {
+      /* Här ändrar vi färgen på "max" och "min" på mindre skärmar */
+      background-color: blue;
+    
+    }
+  
+    .min {
+      margin-top: 10px; /* Justerar mellanrummet mellan "max" och "min" */
+    }
+  }
+  

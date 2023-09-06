@@ -1,0 +1,87 @@
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.switch {
+  display: flex;
+  padding: 10px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px
+  
+}
+
+.light {
+  background-color: #f8e3c9;
+  color: rgb(108, 107, 107);
+}
+
+.light .switch label {
+  color: rgb(108, 107, 107);
+}
+
+.dark {
+  background-color: rgb(7, 141, 123);
+  color: black;
+}
+
+.dark .switch .labelett {
+  color: rgb(71, 71, 71);
+}
+
+.dark .switch label {
+  color: black;
+}
+
+.button {
+  margin-left: 10px;
+  border: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(186, 128, 11);
+}
+
+.light .button {
+  background-color: #f8bb71;
+}
+
+.ruta {
+  margin-top: 10px;
+}
+
+.dark .ruta {
+  background-color: rgb(174, 103, 11);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.light .ruta {
+  background-color: rgb(247, 218, 130);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.ruta p {
+  font-size: 22px;
+}
+
+.search-box {
+  margin-bottom: 20px
+}
+
+
+.togglebutton {
+  background-color: rgb(181, 240, 240);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
