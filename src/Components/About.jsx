@@ -61,7 +61,7 @@ const About = () => {
             <div style={{marginTop: 10, fontSize:16}}>
               <p> Eva-Li Nätynki Bodén</p>
               <p>Mail: evaliboden@gmail.com</p>
-              <p>Mob: 0703-97449</p>{" "}
+              <p>Mob: 0703-974499</p>{" "}
             </div>
           </div>
         </div>
