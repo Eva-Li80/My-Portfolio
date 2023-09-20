@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="w-[100px] h-[30px] flex justify-between items-center bg-sky-500 shadow-md shadow-[#040c16] hover:scale-110 duration-500 mb-2">
-          <a className="flex justify-between w-full text-gray-300 p-2" href="/">
+          <a className="flex justify-between w-full text-gray-300 p-2" href="https://www.facebook.com/evali.boden">
             FaceBook <FaFacebook size={20} />
           </a>
         </div>

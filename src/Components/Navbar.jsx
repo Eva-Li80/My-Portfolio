@@ -81,7 +81,7 @@ const Navbar = () => {
         </li>
         <li className="py-4 text-2xl  hover:bg-pink-500 hover:border-pink-400">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Lite små projekt
+            Små och större projekt
           </Link>
         </li>
         <li className="py-4 text-2xl  hover:bg-pink-500 hover:border-pink-400 ">

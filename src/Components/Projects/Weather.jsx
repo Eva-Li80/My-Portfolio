@@ -11,7 +11,7 @@ const api = {
 const Weather = () => {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [toggle, setToggle] = useState(true);
   const [toggletvå, setToggletvå] = useState(true)
 
@@ -29,7 +29,7 @@ const Weather = () => {
   }, []);
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   const togglee = () => {
