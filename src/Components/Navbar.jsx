@@ -25,27 +25,52 @@ const Navbar = () => {
       <div className=" flex items-center justify-end ">
         <ul className="hidden lg:flex mover ">
           <li>
-            <Link className="hover:border-b-2 border-transparent hover:border-pink-600" to="home" smooth={true} duration={500}>
+            <Link
+              className="hover:border-b-2 border-transparent hover:border-pink-600"
+              to="home"
+              smooth={true}
+              duration={500}
+            >
               Start
             </Link>
           </li>
           <li>
-            <Link className="hover:border-b-2 border-transparent hover:border-pink-600" to="about" smooth={true} duration={500}>
+            <Link
+              className="hover:border-b-2 border-transparent hover:border-pink-600"
+              to="about"
+              smooth={true}
+              duration={500}
+            >
               Om mig
             </Link>
           </li>
           <li>
-            <Link className="hover:border-b-2 border-transparent hover:border-pink-600" to="skills" smooth={true} duration={500}>
+            <Link
+              className="hover:border-b-2 border-transparent hover:border-pink-600"
+              to="skills"
+              smooth={true}
+              duration={500}
+            >
               Färdigheter
             </Link>
           </li>
           <li>
-            <Link className="hover:border-b-2 border-transparent hover:border-pink-600" to="work" smooth={true} duration={500}>
+            <Link
+              className="hover:border-b-2 border-transparent hover:border-pink-600"
+              to="work"
+              smooth={true}
+              duration={500}
+            >
               Lite små projekt
             </Link>
           </li>
           <li>
-            <Link className="hover:border-b-2 border-transparent hover:border-pink-600" to="contact" smooth={true} duration={500}>
+            <Link
+              className="hover:border-b-2 border-transparent hover:border-pink-600"
+              to="contact"
+              smooth={true}
+              duration={500}
+            >
               Kontakt
             </Link>
           </li>

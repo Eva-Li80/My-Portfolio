@@ -9,28 +9,38 @@ const Footer = () => {
       <h2 className="text-white text-center mb-2 md:mb-0">Visit me on:</h2>
       <div className="flex flex-wrap justify-center md:justify-start md:flex-row md:space-x-4 ">
         <div className="w-[100px] h-[30px] flex justify-between items-center bg-pink-500 shadow-md shadow-[#040c16] hover:scale-110 duration-500 mb-2">
-          <a className="flex justify-between w-full text-gray-300 p-2" href="mailto: evaliboden@gmail.com">
+          <a
+            className="flex justify-between w-full text-gray-300 p-2"
+            href="mailto: evaliboden@gmail.com"
+          >
             Email <HiOutlineMail size={20} />
           </a>
         </div>
         <div className="w-[100px] h-[30px] flex justify-between items-center bg-blue-500 shadow-md shadow-[#040c16] hover:scale-110 duration-500 mb-2">
-          <a className="flex justify-between w-full text-gray-300 p-2" href="https://www.linkedin.com/in/eva-li-n%C3%A4tynki-bod%C3%A9n-4a3b1021b/">
+          <a
+            className="flex justify-between w-full text-gray-300 p-2"
+            href="https://www.linkedin.com/in/eva-li-n%C3%A4tynki-bod%C3%A9n-4a3b1021b/"
+          >
             LinkedIn <FaLinkedin size={20} />
           </a>
         </div>
         <div className="w-[100px] h-[30px] flex justify-between items-center bg-sky-500 shadow-md shadow-[#040c16] hover:scale-110 duration-500 mb-2">
-          <a className="flex justify-between w-full text-gray-300 p-2" href="https://www.facebook.com/evali.boden">
+          <a
+            className="flex justify-between w-full text-gray-300 p-2"
+            href="https://www.facebook.com/evali.boden"
+          >
             FaceBook <FaFacebook size={20} />
           </a>
         </div>
         <div className="w-[100px] h-[30px] flex justify-between items-center bg-gray-500 shadow-md shadow-[#040c16] hover:scale-110 duration-500 mb-2">
-          <a className="flex justify-between w-full text-gray-300 p-2" href="https://github.com/Eva-Li80">
+          <a
+            className="flex justify-between w-full text-gray-300 p-2"
+            href="https://github.com/Eva-Li80"
+          >
             Github <FaGithub size={20} />
           </a>
         </div>
-     
       </div>
-      
     </div>
   );
 };

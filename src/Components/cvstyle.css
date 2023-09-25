@@ -1,9 +1,8 @@
 @media screen and (max-width: 600px) {
-    .flex-wrap {
-      flex-direction: column;
-    }
-    .img {
-        height: 280px
-    }
+  .flex-wrap {
+    flex-direction: column;
   }
-  
+  .img {
+    height: 280px;
+  }
+}

@@ -16,7 +16,6 @@ const Work = () => {
           </p>
           <p className="py-2 pb-2"></p>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
             style={{
@@ -29,21 +28,19 @@ const Work = () => {
               Never alone
             </h3>
             <div className="opacity-0 group-hover:opacity-100">
-            <div className="pt-8 text-center">
+              <div className="pt-8 text-center">
                 <a
                   href="https://github.com/Eva-Li80/Never-alone.git"
                   target="_blank"
                   rel="noopener noreferrer"
-                
                 >
-                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Till projektet på git hub
                   </button>
                 </a>
               </div>
             </div>
           </div>
-
           <div
             style={{
               backgroundImage: `url(${ligtdark})`,
@@ -71,7 +68,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-
           <div
             style={{
               backgroundImage: `url(${kalkylator})`,
@@ -106,7 +102,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-
           <div
             style={{
               backgroundImage: `url(${siffror})`,

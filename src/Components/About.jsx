@@ -14,9 +14,11 @@ const About = () => {
         </div>
         <div className="max-w-[1000] w-full grid sm-grid-cols-2 gap-8 px-4">
           <div className="sm:text-center text-2xl font-bold">
-            <p  style={{fontSize: 18}}>Hej, kul att du vill läsa lite mer om vem jag är 😊</p>
+            <p style={{ fontSize: 18 }}>
+              Hej, kul att du vill läsa lite mer om vem jag är 😊
+            </p>
           </div>
-          <div style={{fontSize:17}}>
+          <div style={{ fontSize: 17 }}>
             <article>
               {" "}
               Jag är en positiv, målmedveten och driven person på 43 år. I mitt
@@ -32,15 +34,14 @@ const About = () => {
                 ny examinerad systemutvecklare 🙂
               </p>
               <p>
-                Jag har arbetat mycket med människor och med det
-                krävs en stor ödmjukhet, flexibilitet och balans. Just i
-                ledarrollen var stötta personal på ett motiverande sätt viktigt
-                för mig. Utmaningar ser jag som spännande och det ger
-                utveckling. Jag är även utbildad stödpedagog och att se
-                situationer ur olika perspektiv är för mig en självklarhet för
-                att få bästa möjliga resultat. Ni kan hitta mitt cv lite längre
-                ner på sidan där ni kan se mer om mina tidigare erfarenheter och
-                kompetenser.
+                Jag har arbetat mycket med människor och med det krävs en stor
+                ödmjukhet, flexibilitet och balans. Just i ledarrollen var
+                stötta personal på ett motiverande sätt viktigt för mig.
+                Utmaningar ser jag som spännande och det ger utveckling. Jag är
+                även utbildad stödpedagog och att se situationer ur olika
+                perspektiv är för mig en självklarhet för att få bästa möjliga
+                resultat. Ni kan hitta mitt cv lite längre ner på sidan där ni
+                kan se mer om mina tidigare erfarenheter och kompetenser.
               </p>
             </article>
 
@@ -58,7 +59,7 @@ const About = () => {
                 saker.
               </p>
             </article>
-            <div style={{marginTop: 10, fontSize:16}}>
+            <div style={{ marginTop: 10, fontSize: 16 }}>
               <p> Eva-Li Nätynki Bodén</p>
               <p>Mail: evaliboden@gmail.com</p>
               <p>Mob: 0703-974499</p>{" "}

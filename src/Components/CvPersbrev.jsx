@@ -6,7 +6,7 @@ import "./cvstyle.css";
 const CvPersbrev = () => {
   return (
     <div
-    style={{background: "#214781"}}
+      style={{ background: "#214781" }}
       id="cv"
       className="w-full h-screen flex justify-center items-center pb-24"
     >
