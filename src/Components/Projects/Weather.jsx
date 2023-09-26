@@ -26,7 +26,7 @@ const Weather = () => {
 
   useEffect(() => {
     fetchWeather();
-  }, []);
+  }, [fetchWeather]);
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");

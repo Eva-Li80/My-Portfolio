@@ -19,7 +19,7 @@ const Skills = () => {
             Erfarenheter
           </p>
           <p className="py-2">
-            //Dessa tekniker är vad vad jag har erefarenhet av:
+            Dessa tekniker är vad vad jag har erefarenhet av:
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
