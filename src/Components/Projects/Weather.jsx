@@ -1,6 +1,6 @@
 
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./weatherstyle.css"
 
 const api = {
@@ -23,10 +23,6 @@ const Weather = () => {
 
     });
   };
-
-  useEffect(() => {
-    fetchWeather();
-  }, [fetchWeather]);
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
