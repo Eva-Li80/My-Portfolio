@@ -24,7 +24,6 @@ function App() {
       <MaxMin />
       <CvPersbrev/>
       <Contact />
-
       <Footer />
     </div>
   );

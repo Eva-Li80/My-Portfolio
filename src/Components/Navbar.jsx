@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import ContactLinks from "./ContactLinks";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -61,6 +63,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+       
       </div>
 
       <div onClick={handleClick} className="lg:hidden z-10">
@@ -100,6 +103,10 @@ const Navbar = () => {
             Kontakt
           </Link>
         </li>
+        <li className="py-4 text-2xl ">
+          <ContactLinks/>
+        </li>
+           
       </ul>
     </div>
   );

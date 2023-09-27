@@ -4,6 +4,7 @@
    
     .eva {
         margin-left: 35%;
+    
     }
 
     .evatext {
@@ -31,6 +32,7 @@
 @media screen and (max-width: 600px) {
     .skills{
     padding-top: 250px;
+
     }
 
     .skillsp {
@@ -49,5 +51,7 @@
         font-size: 18px;
     }
   }
+
+
   
   
