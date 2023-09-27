@@ -43,7 +43,7 @@ const MaxMin = () => {
       };
 
   return (
-    <div id="maxmin" className="bg-[#0a192f] text-gray-600">
+    <div id="maxmin" className="bg-[#fbfaf9] text-gray-600">
         <div className="kalk">
             <h1 style={{display:"flex", justifyContent:"center", alignItems:"center", paddingTop: 20, color: "white"}}>skriv in olika tal och hitta max och minsta numret</h1>
         <div className="max">

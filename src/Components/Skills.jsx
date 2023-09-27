@@ -9,22 +9,23 @@ import vue from "../assets/Vue.js_Logo_2.svg.png";
 import sql from "../assets/sql-database.png";
 import mongodb from "../assets/mongodb-atlas-hits-amazon.png";
 import net from "../assets/net.png";
+import "./stylemob.css"
 
 const Skills = () => {
   return (
-    <div id="skills" className="fix w-full h-screen bg-[#0a192f] text-gray-300">
+    <div id="skills" className=" skills fix w-full h-screen bg-gradient-to-r from-[#19785a] via-[#eeeae2]  to-[white] text-gray-1600">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="py-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+        <div className="py-2">
+          <p className= " text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
             Erfarenheter
           </p>
-          <p className="py-2">
+          <p className=" skillsp py-2 text-2xl">
             Dessa tekniker är vad vad jag har erefarenhet av:
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={html} alt="html icon" />
+        <div className="  w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-4">
+          <div className=" shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className=" w-20 mx-auto" src={html} alt="html icon" />
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -71,6 +72,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={net} alt="net icon" />
             <p className="my-4">.NET & .NET core</p>
           </div>
+         
         </div>
       </div>
     </div>

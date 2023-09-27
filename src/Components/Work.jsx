@@ -5,18 +5,19 @@ import kalkylator from "../assets/kalkylator.jpeg";
 import siffror from "../assets/siffror-2-20196.jpg";
 import cvt from "../assets/image 1.png";
 import neveralone from "../assets/alone.png";
+import "./stylemob.css"
 
 const Work = () => {
   return (
-    <div id="work" className="bg-[#0a192f] text-gray-300 w-full md:h-screen">
+    <div id="work" className=" work bg-gradient-to-r from-[#19785a] via-[#eeeae2]  to-[white] text-gray-1600 w-full md:h-screen">
       <div className="max-w-[1000px] mx-auto p-4 w-full h-full">
         <div className="py-16">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
             Små och större projekt
           </p>
-          <p className="py-2 pb-2"></p>
+          <p className="py-0 pb-0"></p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <div
             style={{
               backgroundImage: `url(${neveralone})`,

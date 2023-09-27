@@ -1,0 +1,53 @@
+/*Home*/
+
+@media screen and (max-width: 600px) {
+   
+    .eva {
+        margin-left: 35%;
+    }
+
+    .evatext {
+        font-size: 25px;
+    }
+
+    .homebutton{
+        font-size: 1rem;
+        border: 2px solid white;
+    }
+  }
+
+
+/*About*/
+
+@media screen and (max-width: 600px) {
+    .om{
+     display: none;
+    }
+  }
+
+
+  /*Skills*/
+
+@media screen and (max-width: 600px) {
+    .skills{
+    padding-top: 250px;
+    }
+
+    .skillsp {
+        font-size: 18px;
+    }
+  }
+
+    /*Work*/
+
+@media screen and (max-width: 600px) {
+    .work{
+    padding-top: 250px;
+    }
+
+    .skillsp {
+        font-size: 18px;
+    }
+  }
+  
+  

@@ -11,7 +11,7 @@ const api = {
 const Weather = () => {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const [toggle, setToggle] = useState(true);
   const [toggletvå, setToggletvå] = useState(true)
 

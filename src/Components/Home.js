@@ -2,45 +2,46 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import eva from "../assets/Eva-Li-img.jpg";
+import "./stylemob.css"
 
 const Home = () => {
   return (
     <div
       id="home"
-      className="bg-[#214781] w-full h-screen flex justify-center items-center pb-10"
+      className="bg-gradient-to-r from-[#fbfaf9] via-[#eeeae2] to-[#6ea392] w-full h-screen flex justify-center items-center pb-1"
     >
       <div className="max-w-[1000px] p-4 text-center">
-        <section className="text-[#f3a3c4] text-2xl">
-          <div className="md:flex md:flex-row-reverse md:items-center">
-            <div className="md:w-1/2 md:ml-4">
+        <section className="text-[#1b5844] text-2xl">
+          <div className="md:flex md:items-center">
+            <div className="md:w-1/4 md:ml-6">
               <img
-                width={100}
+              className="eva"
+                width={110}
                 height={200}
                 style={{
-                  border: "3px solid pink",
-                  borderRadius: "10px",
-                  marginBottom: 15,
+                  border: "3px solid #a5d4c5",
+                  borderRadius: "5px",
+                  marginBottom: 10,
+                  padding: 10,
                 }}
                 src={eva}
                 alt=""
               />
             </div>
-            <div className="md:w-1/2 md:mr-4"></div>
+            <div className="md:w-1/2 md:mr-10">
+              <h1 className=" evatext text-4xl sm:text-4xl font-light text-[#bd586c] py-1">
+                Eva-Li Nätynki Bodén
+              </h1>
+            </div>
           </div>
-          <h1 className="text-4xl sm:text-4xl font-light text-[#df538e] py-1">
-            <span style={{ fontSize: 19, color: "white", marginRight: 10 }}>
-              Hej mitt namn är:{" "}
-            </span>{" "}
-            Eva-Li Nätynki Bodén
-          </h1>
-          <p className="text-4xl sm:text-2xl text-[#edeff6] py-4 max-w-[700px] mx-auto">
-            Jag har läst två år på yrkeshögskolan till systemutvecklare i Borås
-            både backend och frontend.. tog examen juni 2023 och är öppen för
-            arbete!
+
+          <p className="text-xl sm:text-2xl text-[#202020] py-4 max-w-[700px] mx-auto">
+            Jag är utbildad systemutvecklare, tog examen juni 2023. 
+            Läser just nu vidare frontendutveckling då jag tycker det är väldigt intressant och roligt, men jag är öppen för arbete!
           </p>
           <div className="flex justify-center">
             <Link to="work">
-              <button className="text-pink border-2 px-6 py-3 my-2 flex items-center hover:border-pink-600">
+              <button className=" homebutton text-[#d36d81] border-2 px-6 py-3 my-2 flex items-center hover:border-green-800">
                 Små och större projekt <HiArrowNarrowRight />
               </button>
             </Link>
