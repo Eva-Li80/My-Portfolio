@@ -79,6 +79,11 @@ form {
 
 /*max min*/
 
+#maxmin{
+  margin-top: 40px;
+  padding: 40px;
+}
+
 #button {
     background-color: rgb(125, 222, 249);
     border-radius: 5px;
@@ -94,9 +99,9 @@ form {
   .max {
     width: 350px;
     padding: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 50px;
     background-color: #f8a9be;
     display: flex;
     justify-content: center;
@@ -110,7 +115,7 @@ form {
     width: 350px;
     padding: 50px;
     background-color:  #f8a9be;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-right: 150px;
     display: flex;
     justify-content: center;
@@ -125,7 +130,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     
   }
 

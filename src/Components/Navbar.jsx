@@ -3,7 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import ContactLinks from "./ContactLinks";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -49,7 +48,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              Lite små projekt
+              Projekt
             </Link>
           </li>
           <li>
@@ -63,7 +62,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-       
       </div>
 
       <div onClick={handleClick} className="lg:hidden z-10">
@@ -77,36 +75,45 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#eeeae2] flex flex-col justify-center items-center pb-10"
         }
       >
-        <li className="py-4 text-2xl  hover:bg-[#d36d81]">
+        <li className="py-2 text-2xl hover:border-b-2 border-transparent hover:border-[#943d4e]">
           {" "}
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Start
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:bg-[#d36d81]">
+
+        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             Om mig
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:bg-[#d36d81]">
+        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Färdigheter
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:bg-[#d36d81]">
+        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Små och större projekt
+            Projekt
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:bg-[#d36d81] ">
+        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Kontakt
           </Link>
         </li>
+        <h3
+          style={{
+            marginTop: 30,
+            marginBottom: 10,
+            textDecoration: "underline",
+          }}
+        >
+          Besök gärna👇
+        </h3>
         <li className="py-4 text-2xl ">
-          <ContactLinks/>
+          <ContactLinks />
         </li>
-           
       </ul>
     </div>
   );
