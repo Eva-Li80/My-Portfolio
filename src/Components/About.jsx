@@ -17,8 +17,8 @@ const About = () => {
         </div>
         <div className="max-w-[1000] w-full grid sm-grid-cols-2 gap-8 px-4">
           <div className="sm:text-center text-xl sm:text-2xl font-bold">
-            <p style={{ fontSize: 18 }}>
-              Hej, kul att du vill läsa lite mer om vem jag är 😊
+            <p style={{ fontSize: 18, marginTop: 10 }}>
+              Kul att du vill läsa lite mer om vem jag är 😊
             </p>
           </div>
           <div style={{ fontSize: 16 }}>
