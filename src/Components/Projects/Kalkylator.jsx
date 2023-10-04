@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./kalkylatorstyle.css"; // Importera din egen CSS-fil
+import MaxMin from "./MaxMin";
 
 const Kalcylator = () => {
   const [value1, setValue1] = useState(0);
@@ -66,7 +67,7 @@ const Kalcylator = () => {
         </button>
         <div id="result">{result}</div>
       </div>
-      
+       <MaxMin/>
     </div>
   );
 };

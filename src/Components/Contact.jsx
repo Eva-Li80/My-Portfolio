@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-gradient-to-r from-[#fbfaf9] via-[#eeeae2]  to-[white] w-full h-screen flex flex-col justify-center items-center p-8 relative"
+      className="bg-gradient-to-r from-[#fbfaf9] via-[#eeeae2] to-[#6ea392] w-full h-screen flex flex-col justify-center items-center p-8 relative"
     >
       <form
         method="POST"
@@ -12,7 +12,7 @@ const Contact = () => {
         className=" flex flex-col max-w-[600px] w-full"
       >
         <div className=" pb-2">
-          <p className=" text-4xl font-bold inline border-b-2  text-[#000] border-[#d36d81]">
+          <p className=" text-4xl font-bold inline border-b-2  text-[#484647] border-[#d36d81]">
             Kontakt
           </p>
           <p className="text-gray-1600 py-4 text-m">

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[85px] flex justify-end items-center px-4 bg-gradient-to-r from-[#19785a] via-[#eeeae2] to-[#fff] text-black">
+    <div className="fixed w-full h-[85px] flex justify-end items-center px-4 bg-gradient-to-r from-[#19785a] via-[#eeeae2] to-[#fff] text-black text-2xl">
       <div className=" flex items-center justify-end ">
         <ul className="hidden lg:flex mover ">
           <li>

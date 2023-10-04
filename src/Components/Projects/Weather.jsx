@@ -61,9 +61,9 @@ const Weather = () => {
       </div>
       <div className="center-content">
         <div className={`search-box ${theme}`}>
-          <h3 style={{marginLeft: 30, marginBottom: 10}}>The weather today? 🤔</h3>
+          <h3 style={{marginLeft: 30, marginBottom: 20 , fontSize: 20}}>The weather today? 🤔</h3>
           <input
-          style={{padding: 10, borderRadius: 7}}
+          style={{padding: 10, borderRadius: 7, background: "rgb(399, 250, 230)"}}
             type="text"
             placeholder="Skriv stadens namn.."
             onChange={(e) => setSearch(e.target.value)}
@@ -83,7 +83,6 @@ const Weather = () => {
 
         <div className="togglebutton">
           {toggle ? <h1>Toggle with out function</h1> : null}
-
           <button className="button" onClick={() => setToggle(!toggle)}>Toggle one</button>
         </div>
         <div className="togglebutton">

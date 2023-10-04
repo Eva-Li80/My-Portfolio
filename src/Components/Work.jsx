@@ -13,7 +13,7 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 w-full h-full">
         <div className="py-16">
           <p className="text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
-            Små och större projekt
+            Projekt
           </p>
           <p className="py-0 pb-0"></p>
         </div>
@@ -41,6 +41,32 @@ const Work = () => {
                 </a>
               </div>
             </div>
+            
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${neveralone})`,
+              border: "2px solid gray",
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <h3 style={{ marginLeft: 10, fontSize: 20, fontWeight: "bold" }}>
+              Never alone
+            </h3>
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="pt-8 text-center">
+                <a
+                  href="https://eva-li-portfolio.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Till projektet på git hub
+                  </button>
+                </a>
+              </div>
+            </div>
+            
           </div>
           <div
             style={{

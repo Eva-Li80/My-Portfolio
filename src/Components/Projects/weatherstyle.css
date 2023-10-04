@@ -18,7 +18,7 @@
 
 .light {
   background-color: #fbfaf9;
-  color: rgb(108, 107, 107);
+  color: rgb(108, 108, 107);
 }
 
 .light .switch label {
@@ -27,11 +27,11 @@
 
 .dark {
   background-color: #242254;
-  color: black;
+  color: rgb(134, 96, 47);
 }
 
 .dark .switch .labelett {
-  color: rgb(172, 171, 171);
+  color: rgb(246, 248, 201);
 }
 
 .dark .switch label {
@@ -43,11 +43,11 @@
   border: 5px;
   border-radius: 5px;
   padding: 10px;
-  background-color: rgb(253, 234, 197);
+  background-color: rgb(206, 176, 117);
 }
 
 .light .button {
-  background-color: #f7eee3;
+  background-color: #f7f4e3;
 }
 
 .ruta {
@@ -81,6 +81,8 @@
   font-size: 15px;
   padding: 20px;
   margin-top: 20px;
+  width: 250px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
