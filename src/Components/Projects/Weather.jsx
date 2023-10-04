@@ -12,8 +12,6 @@ const Weather = () => {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
   const [theme, setTheme] = useState("light");
-  const [toggle, setToggle] = useState(true);
-  const [toggletvå, setToggletvå] = useState(true)
 
   const fetchWeather = () => {
     fetch(`${api.base}weather?q=${search}&units=metric&APPID=${api.key}`)
@@ -28,10 +26,6 @@ const Weather = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  const togglee = () => {
-
-    setToggletvå(!toggletvå)
-  }
 
   return (
     <div id="weather" className={`fix w-full h-screen  ${theme}`}>
