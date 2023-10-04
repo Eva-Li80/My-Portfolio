@@ -2,14 +2,16 @@ import React from "react";
 import { Link } from "react-scroll";
 import ligtdark from "../assets/lightanddark.jpg";
 import kalkylator from "../assets/kalkylator.jpeg";
-import siffror from "../assets/siffror-2-20196.jpg";
 import cvt from "../assets/image 1.png";
 import neveralone from "../assets/alone.png";
-import "./stylemob.css"
+import "./stylemob.css";
 
 const Work = () => {
   return (
-    <div id="work" className=" work bg-gradient-to-r from-[#19785a] via-[#eeeae2]  to-[white] text-gray-1600 w-full md:h-screen">
+    <div
+      id="work"
+      className=" work bg-gradient-to-r from-[#19785a] via-[#eeeae2]  to-[white] text-gray-1600 w-full md:h-screen"
+    >
       <div className="max-w-[1000px] mx-auto p-4 w-full h-full">
         <div className="py-16">
           <p className="text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
@@ -41,32 +43,30 @@ const Work = () => {
                 </a>
               </div>
             </div>
-            
           </div>
           <div
             style={{
-              backgroundImage: `url(${neveralone})`,
+              backgroundColor: "lightpink",
               border: "2px solid gray",
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <h3 style={{ marginLeft: 10, fontSize: 20, fontWeight: "bold" }}>
-              Never alone
+              play hangman
             </h3>
             <div className="opacity-0 group-hover:opacity-100">
               <div className="pt-8 text-center">
                 <a
-                  href="https://eva-li-portfolio.netlify.app/"
+                  href="https://eva-li-hangman.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Till projektet på git hub
+                    Till projektet
                   </button>
                 </a>
               </div>
             </div>
-            
           </div>
           <div
             style={{
@@ -117,41 +117,6 @@ const Work = () => {
                 <Link
                   activeClass="active"
                   to="kalkylator"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Till projekt
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{
-              backgroundImage: `url(${siffror})`,
-              border: "2px solid gray",
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {" "}
-            <h3
-              style={{
-                marginLeft: 10,
-                color: "black",
-                fontSize: 20,
-                fontWeight: "bold",
-              }}
-            >
-              Siffror
-            </h3>
-            <div className="opacity-0 group-hover:opacity-100">
-              <div className="pt-8 text-center">
-                <Link
-                  activeClass="active"
-                  to="maxmin"
                   spy={true}
                   smooth={true}
                   offset={-70}

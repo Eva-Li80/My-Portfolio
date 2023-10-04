@@ -1,8 +1,7 @@
 
 /*kalkylator*/
 #kalkylator {
-    background-color: #fbfaf9;
-  
+    background-color: #cdc2b6; 
 }
 
 /**/
@@ -14,18 +13,20 @@ form {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 40px;
    
 }
 
 .rubrik {
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 10px;
 }
 
 #value1 {
     padding: 10px;
     width: 50px;
+    height: 50%;
+    border-radius: 10%;
     margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 20px;
@@ -34,6 +35,8 @@ form {
 #value2 {
     padding: 10px;
     width: 50px;
+    height: 50%;
+    border-radius: 10%;
     margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 20px;
@@ -43,13 +46,16 @@ form {
     padding: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
+    width: 90px;
+    height: 30%;
+    border-radius: 10%;
 }
 
 #buttoncontainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 25px;
  
 }
@@ -59,10 +65,13 @@ form {
     font-size: 25px;
     border-radius: 10px;
     margin-left: 10px;
-    background-color:#fdad6b;
-    padding: 5px
+    background-color:#e9b285;
+    padding: 0 5px 0 5px;
+    margin-bottom: 10px;
   
 }
+
+
 
 /*max min*/
 
@@ -79,15 +88,16 @@ form {
   
   .numberinput {
     padding-left: 5px;
+    margin-bottom: 10px;
   }
   
   .max {
-    max-width: 600px;
+    width: 350px;
     padding: 50px;
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
-    background-color: #fdad6b;
+    background-color: #f8a9be;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,9 +107,9 @@ form {
   }
   
   .min {
-    max-width: 600px;
+    width: 350px;
     padding: 50px;
-    background-color: #fdad6b;
+    background-color:  #f8a9be;
     margin-left: 150px;
     margin-right: 150px;
     display: flex;

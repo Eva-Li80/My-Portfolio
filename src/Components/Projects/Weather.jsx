@@ -80,15 +80,6 @@ const Weather = () => {
         ) : (
          <p></p>
         )}
-
-        <div className="togglebutton">
-          {toggle ? <h1>Toggle with out function</h1> : null}
-          <button className="button" onClick={() => setToggle(!toggle)}>Toggle one</button>
-        </div>
-        <div className="togglebutton">
-          {toggletvå ? <h2>Toggle with function</h2> : null}
-          <button className="button" onClick={togglee}>Toggle two</button>
-        </div>
       </div>
     </div>
   );
