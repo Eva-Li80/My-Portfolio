@@ -32,7 +32,7 @@ const Home = () => {
               <h1 className=" evatext text-4xl sm:text-4xl font-light text-[#c4304e] py-1">
                 Eva-Li Nätynki Bodén
               </h1>
-                <p style={{fontSize: 15}}>"Sidan är inte klar, jobbar på den eftervart just nu ligger det enkla små test projekt under tiden.."</p>
+                <p style={{fontSize: 15}}>"Sidan är inte klar, jobbar på den eftervart😊 just nu ligger det enkla små test projekt i den under tiden.."</p>
             </div>
           </div>
 
