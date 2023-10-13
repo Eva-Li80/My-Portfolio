@@ -32,7 +32,9 @@ const Kalcylator = () => {
 
   return (
     <div id="kalkylator" className="fix w-full h-screen">
+      
       <form>
+      <h1 style={{marginRight: 25, fontSize: 18}}>Små enkla test projekt..😊</h1>
         <h3 className="rubrik">Skriv in två tal:</h3>
         Tal 1:{" "}
         <input
