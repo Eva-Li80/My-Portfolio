@@ -156,23 +156,33 @@ form {
     border-radius: 3px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .kalk {
       /* Här ändrar vi display för "max" och "min" på mindre skärmar */
       display: flex;
       flex-direction: column;
       align-items: center;
+   
     }
   
     .max,
     .min {
       /* Här ändrar vi färgen på "max" och "min" på mindre skärmar */
-      background-color: blue;
+        margin: 0;
     
     }
   
     .min {
       margin-top: 10px; /* Justerar mellanrummet mellan "max" och "min" */
     }
+    #maxmin{
+      background: white;
+      margin-top: 100px;
+    }
+
+    .randomcontainer{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
   }
-  
+
