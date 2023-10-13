@@ -1,9 +1,10 @@
 /*Home*/
 
 @media screen and (max-width: 600px) {
-   
+
     .eva {
         margin-left: 35%;
+        margin-top: 25px;
     
     }
 
