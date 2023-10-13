@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./kalkylatorstyle.css";
+import RandomNumber from "./randomNumber";
 
 const MaxMin = () => {
   const [inputMin, setInputMin] = useState("");
@@ -70,6 +71,7 @@ const MaxMin = () => {
           </button>
           <p style={{ marginLeft: 20 }}>{max}</p>
         </div>
+        <RandomNumber/>
         <div className="min" style={{ display: "flex",
             flexDirection: "column",
             justifyContent: "center",

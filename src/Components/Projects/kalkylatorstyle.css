@@ -134,6 +134,28 @@ form {
     
   }
 
+  .randomcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .random{
+    background-color: pink;
+    width: 50px;
+    padding: 10px;
+    margin: 10px
+  }
+
+  .ladda{
+    background-color: red;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 3px;
+  }
+
   @media screen and (max-width: 600px) {
     .kalk {
       /* Här ändrar vi display för "max" och "min" på mindre skärmar */

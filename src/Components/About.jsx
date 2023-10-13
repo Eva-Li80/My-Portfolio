@@ -28,7 +28,7 @@ const About = () => {
               I mitt förra yrke som uppdragschef blev jag van vid att ha många
               bollar i luften. Jag arbetade mycket med problemlösning, vilket är
               roligt då man dagligen får göra det som utvecklare.
-              <p>
+              <div>
                 Jag är en systemutvecklare som tog examen våren 2023 men insåg
                 att frontend-utveckling fascinerade mig djupt under min
                 utbildning. Därför har jag valt att vidareutbilda mig på
@@ -49,7 +49,7 @@ const About = () => {
                   och ser fram emot att kombinera min erfarenhet som
                   systemutvecklare med min nya kompetens inom frontend.
                 </p>
-              </p>
+              </div>
             </article>
           </div>
         </div>

@@ -1,3 +1,12 @@
+.cv{
+  background: rgb(200, 200, 248);
+  padding: 5rem;
+  font-size: 3rem;
+  text-decoration: underline;
+  border-radius: 5px;
+  color: rgb(61, 61, 61);
+}
+
 @media screen and (max-width: 600px) {
   .flex-wrap {
     flex-direction: column;

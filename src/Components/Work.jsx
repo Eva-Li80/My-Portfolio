@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-scroll";
 import ligtdark from "../assets/lightanddark.jpg";
 import kalkylator from "../assets/kalkylator.jpeg";
-import cvt from "../assets/image 1.png";
 import neveralone from "../assets/alone.png";
 import "./stylemob.css";
 
@@ -110,7 +109,7 @@ const Work = () => {
                 fontWeight: "bold",
               }}
             >
-              Kalkulator
+              Små test projekt
             </h3>
             <div className="opacity-0 group-hover:opacity-100">
               <div className="pt-8 text-center">
@@ -131,13 +130,11 @@ const Work = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${cvt})`,
               fontSize: 10,
               border: "2px solid gray",
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {" "}
             <h3
               style={{
                 marginLeft: 10,
