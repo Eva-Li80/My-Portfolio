@@ -11,7 +11,7 @@ const api = {
 const Weather = () => {
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const fetchWeather = () => {
     fetch(`${api.base}weather?q=${search}&units=metric&APPID=${api.key}`)

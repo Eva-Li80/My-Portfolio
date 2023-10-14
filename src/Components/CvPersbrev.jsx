@@ -8,7 +8,7 @@ const CvPersbrev = () => {
       id="cv"
       className="cvt w-full h-screen flex justify-center items-center pb-16 bg-gradient-to-r from-[#fbfaf9] via-[#eeeae2]  to-[white] text-[#131313]"
     >
-      <a className="cv" href={cveva}>Titta på Eva-Lis CV</a>
+      <a className="cv" href={cveva}>Eva-Lis CV</a>
     </div>
   );
 };
