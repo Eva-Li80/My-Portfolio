@@ -16,7 +16,7 @@ const Skills = () => {
     <div id="skills" className=" skills fix w-full h-screen bg-gradient-to-r from-[#19785a] via-[#eeeae2]  to-[white] text-gray-1600">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="py-2">
-          <p className= " text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
+          <p className= "erfarenhet text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
             Erfarenheter
           </p>
           <p className=" skillsp py-2 text-2xl">

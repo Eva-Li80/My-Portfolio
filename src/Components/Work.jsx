@@ -13,7 +13,7 @@ const Work = () => {
     >
       <div className="max-w-[1000px] mx-auto p-4 w-full h-full">
         <div className="py-16">
-          <p className="text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
+          <p className="projekt text-4xl font-bold inline border-b-2  text-[#eeeae2] border-[#d36d81]">
             Projekt
           </p>
           <p className="py-0 pb-0"></p>

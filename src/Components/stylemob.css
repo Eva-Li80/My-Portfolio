@@ -16,20 +16,31 @@
         font-size: 1rem;
         border: 2px solid white;
     }
-  }
 
-
-/*About*/
-
-@media screen and (max-width: 600px) {
     .om, .kul{
-     display: none;
-    }
+        display: none;
+       }
 
+       .skills{
+        padding-top: 250px;
+    
+        }
+    
+        .skillsp {
+            font-size: 18px;
+        }
+
+        .work{
+            padding-top: 60px;
+            }
+        
+            
   }
 
 
-  /*Skills*/
+
+  
+
 
 @media screen and (max-width: 600px) {
     .skills{
@@ -40,20 +51,39 @@
     .skillsp {
         font-size: 18px;
     }
+
+    .work{
+        padding-top: 120px;
+    }
   }
 
     /*Work*/
 
-@media screen and (max-width: 600px) {
-    .work{
-    padding-top: 250px;
+@media screen and (max-width: 376px) {
+    .eva {
+        margin-left: 35%;
+        margin-top: 90px;
     }
 
-    .skillsp {
-        font-size: 18px;
+    #about article{
+        margin-top: 80px;
     }
+
+    .small, .erfarenhet, .projekt{
+        display: none;
+    }
+
+    #work{
+       padding-top: 110px;
+
+    }
+    
+   
   }
 
+
+  
+  
 
   
   
