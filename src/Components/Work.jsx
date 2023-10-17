@@ -69,6 +69,30 @@ const Work = () => {
           </div>
           <div
             style={{
+              backgroundColor: "lightblue",
+              border: "2px solid gray",
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <h3 style={{ marginLeft: 10, fontSize: 20, fontWeight: "bold" }}>
+              Family blog
+            </h3>
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="pt-8 text-center">
+                <a
+                  href="https://blog-family.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Till projektet
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
               backgroundImage: `url(${ligtdark})`,
               border: "2px solid gray",
             }}

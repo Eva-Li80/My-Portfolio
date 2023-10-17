@@ -44,60 +44,7 @@ const MaxMin = () => {
 
   return (
     <div id="maxmin" className="bg-[#eae2d8] text-gray-600">
-      <div className="kalk">
-        
-        <div className="max" style={{ display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",}}>
-        <h1
-          style={{
-           
-            paddingBottom: 20,
-            color: "white",
-          }}
-        >
-          skriv in olika tal, hitta max talet..
-        </h1>
-          <input
-            placeholder="skriv tex 456.."
-            type="text"
-            className="numberinput"
-            value={inputMax}
-            onChange={(e) => setInputMax(e.target.value)}
-          />
-          <button id="button" onClick={handleMaxClick}>
-            Visa största talet
-          </button>
-          <p style={{ marginLeft: 20 }}>{max}</p>
-        </div>
-        <RandomNumber/>
-        <div className="min" style={{ display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",}}>
-        <h1
-          style={{
-           
-            paddingBottom: 20,
-            color: "white",
-          }}
-        >
-          skriv in olika tal, hitta minsta talet..
-        </h1>
-          <input
-            placeholder="skriv tex 123.."
-            type="text"
-            className="numberinput"
-            value={inputMin}
-            onChange={(e) => setInputMin(e.target.value)}
-          />
-          <button id="button" onClick={handleMinClick}>
-            Visa minsta talet
-          </button>
-          <p style={{ marginLeft: 20 }}>{min}</p>
-        </div>
-      </div>
+      <RandomNumber />
     </div>
   );
 };

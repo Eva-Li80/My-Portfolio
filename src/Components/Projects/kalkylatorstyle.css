@@ -2,6 +2,10 @@
 /*kalkylator*/
 #kalkylator {
     background-color: #cdc2b6; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /**/
@@ -140,6 +144,9 @@ form {
     justify-content: center;
     align-items: center;
     padding: 10px;
+  }
+  .randomcontainer h1{
+    font-size: 25px;
   }
 
   .random{

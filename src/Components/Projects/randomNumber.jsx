@@ -14,7 +14,7 @@ function RandomNumber() {
 
   return (
     <div className='randomcontainer'>
-        <h2>Få ett random nummer mellan 1-100</h2>
+        <h1>Få ett random nummer mellan 1-100</h1>
       <p className="random">{randomSiffra}</p>
       <button className='ladda' onClick={reloadRandomNumber}>Nytt nummer</button>
     </div>

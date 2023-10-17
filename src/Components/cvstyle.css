@@ -5,7 +5,10 @@
   text-decoration: underline;
   border-radius: 5px;
   color: rgb(234, 229, 229);
+}
 
+#cv a{
+  font-size: 30px;
 }
 
 @media screen and (max-width: 768px) {
