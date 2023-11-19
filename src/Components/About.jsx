@@ -31,7 +31,7 @@ const About = () => {
                 vilket är roligt då man dagligen får göra det som utvecklare.
               </p>
               <div>
-                Jag är en systemutvecklare som tog examen våren 2023 men insåg
+                Jag är utbildad systemutvecklare, tog examen våren 2023 men insåg
                 att frontend-utveckling fascinerade mig djupt under min
                 utbildning. Därför har jag valt att vidareutbilda mig på
                 Yrkeshögskolan Borås inom Frontend-utveckling för att fördjupa
