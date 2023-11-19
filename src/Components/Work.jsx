@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className=" work bg-gradient-to-r from-[#19785a] via-[#eeeae2]  to-[white] text-gray-1600 w-full md:h-screen"
+      className=" work bg-gradient-to-r from-[#79b8a4] via-[#edebe7] to-[#fff] text-gray-1600 w-full md:h-screen"
     >
       <div className="max-w-[1000px] mx-auto p-4 w-full h-full">
         <div className="py-16">

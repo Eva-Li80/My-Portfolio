@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="bg-gradient-to-r from-[#fbfaf9] via-[#eeeae2] to-[#6ea392] w-full h-screen flex justify-center items-center pb-1"
+      className="bg-gradient-to-r from-[#fff] via-[#edebe7] to-[#79b8a4] w-full h-screen flex justify-center items-center pb-1"
     >
       <div className="max-w-[1000px] p-4 text-center">
         <section className="text-[#1b5844] text-2xl">
@@ -29,10 +29,10 @@ const Home = () => {
               />
             </div>
             <div className="md:w-1/2 md:mr-10">
-              <h1 className=" evatext text-4xl sm:text-4xl font-light text-[#c4304e] py-1">
+              <h1 className=" evatext text-4xl sm:text-4xl font-light text-[#3c3c3c] py-1">
                 Eva-Li Nätynki Bodén
               </h1>
-                <p style={{fontSize: 15}}>"Sidan är inte klar, jobbar på den eftervart😊 just nu ligger det enkla små test projekt i den under tiden.."</p>
+                <p style={{fontSize: 15}}>"Sidan är inte klar, jag jobbar på den eftervart😊"</p>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ const Home = () => {
           </p>
           <div className="flex justify-center">
             <Link to="work">
-              <button className=" homebutton text-[#c4304e] border-2 px-6 py-3 my-2 flex items-center hover:border-green-800">
+              <button className=" homebutton text-[#616161] border-2 px-6 py-3 my-2 flex items-center hover:border-green-800">
                 Små och större projekt <HiArrowNarrowRight />
               </button>
             </Link>

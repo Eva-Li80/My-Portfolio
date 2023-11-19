@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div
       id="about"
-      className="fix w-full h-screen bg-gradient-to-r from-[#fbfaf9] via-[#eeeae2] to-[white] text-[#000] "
+      className="fix w-full h-screen bg-gradient-to-r from-[#fbfaf9] via-[#fff] to-[white] text-[#000] "
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-2 pl-4">
-            <p className="om text-4xl sm:text-4xl font-bold inline border-b-2 text-[#af2743] border-[#d36d81]">
+            <p className="om text-4xl sm:text-4xl font-bold inline border-b-2 text-[#3c3c3c]  border-[#d36d81]">
               Om mig
             </p>
           </div>

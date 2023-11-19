@@ -4,7 +4,7 @@ import RandomNumber from "./randomNumber";
 const MaxMin = () => {
 
   return (
-    <div id="maxmin" className="bg-[#eae2d8] text-gray-600">
+    <div id="maxmin" className="bg-[#fff] text-gray-600">
       <RandomNumber />
     </div>
   );
