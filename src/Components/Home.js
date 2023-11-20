@@ -14,7 +14,7 @@ const Home = () => {
         <section className="text-[#1b5844] text-2xl">
           <div className="md:flex md:items-center">
             <div
-              className=" md:w-1/4 md:ml-6"
+              className="eva md:w-1/4 md:ml-6"
               style={{
                 width: 165,
                 height: 165,
@@ -27,7 +27,6 @@ const Home = () => {
               }}
             >
               <img
-                className="eva"
                 src={eva}
                 alt=""
               />

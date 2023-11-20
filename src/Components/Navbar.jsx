@@ -64,7 +64,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div onClick={handleClick} className="lg:hidden z-10">
+      <div onClick={handleClick} className="lg:hidden z-10 ">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -72,32 +72,32 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#eeeae2] flex flex-col justify-center items-center pb-10"
+            : "absolute top-0 left-0 w-full h-screen bg-[#fff] flex flex-col justify-center items-center pb-10"
         }
       >
-        <li className="py-2 text-2xl hover:border-b-2 border-transparent hover:border-[#943d4e]">
+        <li className="py-2 text-2xl  hover:text-pink-500 hover:bg-transparent bg-transparent transition-colors duration-200">
           {" "}
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Start
           </Link>
         </li>
 
-        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
+        <li className="py-4 text-2xl  hover:text-pink-500 hover:bg-transparent bg-transparent transition-colors duration-200">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             Om mig
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
+        <li className="py-4 text-2xl   hover:text-pink-500 hover:bg-transparent bg-transparent transition-colors duration-200">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Färdigheter
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
+        <li className="py-4 text-2xl  hover:text-pink-500 hover:bg-transparent bg-transparent transition-colors duration-200">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Projekt
           </Link>
         </li>
-        <li className="py-4 text-2xl  hover:border-b-2 border-transparent hover:border-[#943d4e]">
+        <li className="py-4 text-2xl   hover:text-pink-500 hover:bg-transparent bg-transparent transition-colors duration-200]">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Kontakt
           </Link>
