@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .switch {
@@ -17,8 +17,8 @@
 }
 
 .light {
-  background-color: #fbfaf9;
-  color: rgb(108, 108, 107);
+ 
+  color: rgb(108, 108, 107); background: linear-gradient(to right,#6966ae, #cccbef, #fff);
   font-size: 20px;
 }
 
@@ -27,9 +27,10 @@
 }
 
 .dark {
-  background-color: #242254;
-  color: rgb(189, 138, 71);
+  background: linear-gradient(to right,#242254,#6966ae, #cccbef);
+  /* background-color: c */
   font-size: 20px;
+  color: rgb(246, 248, 201);
 }
 
 .dark .switch .labelett {
@@ -45,12 +46,12 @@
   border: 5px;
   border-radius: 5px;
   padding: 10px;
-  background-color: rgb(162, 127, 80);
-  color: rgb(10, 10, 10);
+  background-color: rgb(6, 22, 103);
+  color:rgb(246, 248, 201)
 }
 
 .light .button {
-  background-color: #f7f4e3;
+  background-color: rgb(130, 151, 254);
 }
 
 .ruta {
@@ -58,7 +59,6 @@
 }
 
 .dark .ruta {
-  background-color: rgb(162, 127, 80);
   color: rgb(10, 10, 10);
   padding: 50px;
   border-radius: 10px;
@@ -72,10 +72,13 @@
 
 .ruta p {
   font-size: 22px;
+  color: black;
 }
 
 .search-box {
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .labelett, .labeltvå{

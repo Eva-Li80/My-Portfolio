@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 import ligtdark from "../assets/lightanddark.jpg";
-import kalkylator from "../assets/kalkylator.jpeg";
 import neveralone from "../assets/alone.png";
 import "./stylemob.css";
 
@@ -118,40 +117,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{
-              backgroundImage: `url(${kalkylator})`,
-              border: "2px solid gray",
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <h3
-              style={{
-                marginLeft: 10,
-                color: "blue",
-                fontSize: 20,
-                fontWeight: "bold",
-              }}
-            >
-              Små test projekt
-            </h3>
-            <div className="opacity-0 group-hover:opacity-100">
-              <div className="pt-8 text-center">
-                <Link
-                  activeClass="active"
-                  to="kalkylator"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Till projekt
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
+        
           <div
             style={{
               fontSize: 10,
@@ -195,3 +161,39 @@ const Work = () => {
 };
 
 export default Work;
+
+
+// <div
+// style={{
+//   backgroundImage: `url(${kalkylator})`,
+//   border: "2px solid gray",
+// }}
+// className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+// >
+// <h3
+//   style={{
+//     marginLeft: 10,
+//     color: "blue",
+//     fontSize: 20,
+//     fontWeight: "bold",
+//   }}
+// >
+//   Små test projekt
+// </h3>
+// <div className="opacity-0 group-hover:opacity-100">
+//   <div className="pt-8 text-center">
+//     <Link
+//       activeClass="active"
+//       to="kalkylator"
+//       spy={true}
+//       smooth={true}
+//       offset={-70}
+//       duration={500}
+//     >
+//       <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+//         Till projekt
+//       </button>
+//     </Link>
+//   </div>
+// </div>
+// </div>

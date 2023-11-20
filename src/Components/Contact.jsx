@@ -39,7 +39,7 @@ const Contact = () => {
           id=""
           placeholder="Send me a Message.."
         ></textarea>
-        <button className="text-black border-2 hover:bg-[#d36d81] hover:border-[#d36d81] px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-black border-2 hover:border-[#d36d81] px-4 py-3 my-8 mx-auto flex items-center">
           Skicka
         </button>
       </form>

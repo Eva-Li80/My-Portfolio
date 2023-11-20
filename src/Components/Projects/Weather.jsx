@@ -55,9 +55,9 @@ const Weather = () => {
       </div>
       <div className="center-content">
         <div className={`search-box ${theme}`}>
-          <h3 style={{marginLeft: 30, marginBottom: 20 , fontSize: 20}}>The weather today? 🤔</h3>
+          <h3 style={{marginLeft: 30, marginBottom: 20 , fontSize: 20, color:"black"}}>The weather today? 🤔</h3>
           <input
-          style={{padding: 10, borderRadius: 7, background: "rgb(399, 250, 230)"}}
+          style={{padding: 10, borderRadius: 7, background: "rgb(399, 250, 230)", color: "black"}}
             type="text"
             placeholder="Skriv stadens namn.."
             onChange={(e) => setSearch(e.target.value)}
